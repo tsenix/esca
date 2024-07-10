@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>About</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240710152146">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a class="header__logo" href="index.html">
+					<svg width="130" height="32" viewBox="0 0 130 32" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M110.59 14.7241C110.59 12.7869 110.009 11.29 108.846 10.2334C107.684 9.14151 105.923 8.59558 103.563 8.59558C101.978 8.59558 100.411 8.84213 98.8611 9.33522C97.3466 9.82832 96.061 10.5151 95.0044 11.3957L92.4156 6.58797C93.9301 5.42567 95.7264 4.56275 97.8045 3.99922C99.9177 3.40045 102.101 3.10107 104.356 3.10107C108.441 3.10107 111.594 4.08727 113.812 6.05965C116.067 7.99682 117.194 11.0082 117.194 15.0939V31.6302H110.96V28.2068C110.304 29.1889 109.406 29.9955 108.265 30.6264C106.645 31.5422 104.585 32.0001 102.084 32.0001C99.9706 32.0001 98.1215 31.6478 96.5365 30.9434C94.9515 30.2038 93.7188 29.2 92.8383 27.932C91.993 26.6288 91.5703 25.1671 91.5703 23.547C91.5703 21.962 91.9401 20.5356 92.6798 19.2676C93.4546 17.9996 94.705 16.9958 96.4308 16.2562C98.1567 15.5165 100.446 15.1467 103.299 15.1467H110.59V14.7241ZM99.2309 20.6412C100.006 19.9016 101.52 19.5318 103.774 19.5318H110.59V22.8073C110.026 24.2514 109.093 25.3432 107.79 26.0829C106.522 26.8225 105.078 27.1924 103.457 27.1924C101.767 27.1924 100.446 26.8402 99.4951 26.1357C98.5441 25.4313 98.0686 24.4803 98.0686 23.2828C98.0686 22.2262 98.4561 21.3456 99.2309 20.6412Z" />
+						<path d="M75.8231 32C72.8645 32 70.2229 31.3836 67.8983 30.1509C65.6089 28.8829 63.8126 27.1571 62.5095 24.9734C61.2063 22.7896 60.5547 20.3065 60.5547 17.5241C60.5547 14.7064 61.2063 12.2233 62.5095 10.0748C63.8126 7.89108 65.6089 6.18285 67.8983 4.95011C70.2229 3.71737 72.8645 3.101 75.8231 3.101C78.5703 3.101 80.983 3.66454 83.061 4.79161C85.1743 5.88347 86.7769 7.50365 87.8687 9.65214L82.7969 12.6107C81.9516 11.2723 80.9125 10.2861 79.6798 9.65214C78.4823 9.01816 77.1791 8.70117 75.7702 8.70117C74.1501 8.70117 72.6884 9.05338 71.3852 9.7578C70.082 10.4622 69.0606 11.4836 68.321 12.822C67.5813 14.1252 67.2115 15.6926 67.2115 17.5241C67.2115 19.3556 67.5813 20.9405 68.321 22.2789C69.0606 23.5821 70.082 24.5859 71.3852 25.2903C72.6884 25.9948 74.1501 26.347 75.7702 26.347C77.1791 26.347 78.4823 26.03 79.6798 25.396C80.9125 24.762 81.9516 23.7758 82.7969 22.4374L87.8687 25.396C86.7769 27.5093 85.1743 29.1471 83.061 30.3094C80.983 31.4364 78.5703 32 75.8231 32Z" />
+						<path d="M44.4068 32C42.047 32 39.7752 31.7006 37.5915 31.1018C35.443 30.4679 33.7348 29.7106 32.4668 28.8301L35.0027 23.8111C36.2707 24.6211 37.7852 25.2903 39.5463 25.8187C41.3073 26.347 43.0684 26.6111 44.8294 26.6111C46.9075 26.6111 48.4044 26.3294 49.3201 25.7658C50.2711 25.2023 50.7466 24.445 50.7466 23.4941C50.7466 22.7192 50.4296 22.138 49.7956 21.7506C49.1616 21.328 48.3339 21.011 47.3125 20.7996C46.2911 20.5883 45.1464 20.3946 43.8785 20.2185C42.6457 20.0424 41.3954 19.8134 40.1274 19.5317C38.8947 19.2147 37.7676 18.7744 36.7462 18.2109C35.7248 17.6121 34.8971 16.8196 34.2631 15.8335C33.6291 14.8473 33.3121 13.5441 33.3121 11.9239C33.3121 10.1276 33.8228 8.57789 34.8442 7.27471C35.8656 5.9363 37.2921 4.91489 39.1236 4.21046C40.9903 3.47082 43.1916 3.101 45.7276 3.101C47.6295 3.101 49.5491 3.31233 51.4862 3.73498C53.4234 4.15763 55.026 4.75639 56.2939 5.53126L53.758 10.5503C52.4196 9.74019 51.0636 9.19426 49.69 8.91249C48.3516 8.5955 47.0131 8.43701 45.6747 8.43701C43.6671 8.43701 42.1702 8.73639 41.184 9.33515C40.2331 9.93391 39.7576 10.6912 39.7576 11.6069C39.7576 12.4522 40.0746 13.0862 40.7086 13.5089C41.3425 13.9315 42.1702 14.2661 43.1916 14.5127C44.2131 14.7592 45.3401 14.9705 46.5729 15.1466C47.8408 15.2875 49.0912 15.5165 50.3239 15.8335C51.5567 16.1504 52.6838 16.5907 53.7052 17.1542C54.7618 17.6826 55.6071 18.4398 56.2411 19.426C56.8751 20.4122 57.1921 21.6978 57.1921 23.2827C57.1921 25.0438 56.6638 26.5759 55.6071 27.8791C54.5857 29.1823 53.124 30.2037 51.2221 30.9433C49.3201 31.6478 47.0484 32 44.4068 32Z" />
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0854 32C12.9507 32 10.2034 31.3836 7.84362 30.1509C5.51902 28.8829 3.70513 27.1571 2.40194 24.9734C1.13398 22.7896 0.5 20.3065 0.5 17.5241C0.5 14.7064 1.11637 12.2233 2.34911 10.0748C3.61707 7.89108 5.34291 6.18285 7.52663 4.95011C9.74556 3.71737 12.2639 3.101 15.0816 3.101C17.8288 3.101 20.2767 3.69976 22.4252 4.89728C24.5737 6.0948 26.2643 7.78541 27.497 9.96913C28.7298 12.1528 29.3461 14.724 29.3461 17.6826C29.3461 17.9643 29.3285 18.2813 29.2933 18.6335C29.2933 18.9858 29.2757 19.3204 29.2405 19.6373H7.10446C7.28505 20.6124 7.61948 21.5105 8.10778 22.3318C8.88264 23.6349 9.9745 24.6387 11.3833 25.3432C12.7922 26.0476 14.4124 26.3998 16.2439 26.3998C17.8288 26.3998 19.2553 26.1533 20.5232 25.6602C21.7912 25.1671 22.9183 24.3922 23.9045 23.3356L27.4442 27.4036C26.1762 28.8829 24.5737 30.0276 22.6365 30.8377C20.7346 31.6125 18.5509 32 16.0854 32ZM19.2553 9.44081C20.488 10.1452 21.4566 11.1138 22.161 12.3466C22.6592 13.2183 22.9723 14.1869 23.1006 15.2523H7.04544C7.18998 14.1941 7.49126 13.2431 7.94928 12.3994C8.6537 11.1314 9.60468 10.1452 10.8022 9.44081C12.0349 8.73639 13.4614 8.38417 15.0816 8.38417C16.6665 8.38417 18.0578 8.73639 19.2553 9.44081Z" />
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M123.291 8.02684C123.796 8.23962 124.344 8.34602 124.935 8.34602C125.526 8.34602 126.073 8.23962 126.578 8.02684C127.082 7.81405 127.524 7.51851 127.902 7.14022C128.288 6.75405 128.587 6.30877 128.8 5.80438C129.013 5.29212 129.119 4.74044 129.119 4.14937C129.119 3.55829 129.013 3.0145 128.8 2.51799C128.595 2.0136 128.304 1.57227 127.925 1.19398C127.555 0.815687 127.114 0.524088 126.601 0.319181C126.097 0.106394 125.549 0 124.958 0C124.367 0 123.816 0.106394 123.303 0.319181C122.799 0.531969 122.358 0.831449 121.979 1.21762C121.601 1.59591 121.305 2.03725 121.093 2.54163C120.88 3.04602 120.773 3.58981 120.773 4.17301C120.773 4.75621 120.876 5.3 121.081 5.80438C121.294 6.30877 121.589 6.75405 121.967 7.14022C122.346 7.51851 122.787 7.81405 123.291 8.02684ZM126.318 7.42394C125.892 7.6052 125.427 7.69583 124.923 7.69583C124.434 7.69583 123.977 7.60914 123.552 7.43576C123.126 7.25449 122.756 7.0023 122.44 6.67918C122.125 6.35606 121.881 5.98171 121.707 5.55613C121.534 5.13055 121.447 4.66951 121.447 4.17301C121.447 3.6765 121.534 3.21546 121.707 2.78989C121.889 2.36431 122.133 1.98996 122.44 1.66684C122.756 1.34372 123.126 1.09546 123.552 0.922081C123.985 0.740817 124.454 0.650186 124.958 0.650186C125.463 0.650186 125.924 0.740817 126.341 0.922081C126.767 1.09546 127.133 1.33978 127.441 1.65502C127.756 1.97026 128 2.34067 128.174 2.76624C128.347 3.19182 128.434 3.65286 128.434 4.14937C128.434 4.64587 128.347 5.11085 128.174 5.54431C128 5.97777 127.752 6.35606 127.429 6.67918C127.114 6.99442 126.743 7.24267 126.318 7.42394Z" />
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M127.204 6.50185H126.188L125.266 5.08109C125.223 5.08254 125.18 5.08327 125.136 5.08327H124.214V6.50185H123.197V1.84416H125.136C125.75 1.84416 126.231 1.98996 126.578 2.28156C126.925 2.57316 127.098 2.96721 127.098 3.46372C127.098 3.97598 126.925 4.37397 126.578 4.65769C126.457 4.75657 126.32 4.83822 126.166 4.90263L127.204 6.50185ZM125.076 4.29122H124.202V2.64803H125.076C125.407 2.64803 125.664 2.71896 125.845 2.86082C126.026 3.00267 126.117 3.20364 126.117 3.46372C126.117 3.72379 126.026 3.9287 125.845 4.07844C125.664 4.22029 125.407 4.29122 125.076 4.29122Z" />
+					</svg>
+				</a>
+
+				<div class="header__row">
+					<div class="header__language">
+						<div class="header__language-button">
+							<span>English</span>
+							<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 8.5L9 12L14 8.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</div>
+
+						<div class="header__language-body" hidden>
+							<div class="header__language-item">English</div>
+							<div class="header__language-item">Poland</div>
+							<div class="header__language-item">Germany</div>
+						</div>
+					</div>
+
+					<nav class="header__menu">
+						<a href="index.html" class="header__menu-link">Home</a>
+						<a href="shop-page.html" class="header__menu-link">Shop</a>
+						<a href="media.html" class="header__menu-link">Media</a>
+						<a href="about.html" class="header__menu-link">About</a>
+						<a href="contacts.html" class="header__menu-link">Contact</a>
+					</nav>
+
+					<a href="#" class="header__cart" data-popup="#cart">
+						<svg class="header__cart-icon" fill="none" width="20" height="22" viewBox="0 0 20 22" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.9999 5C13.9999 2.79086 12.209 1 9.99987 1C7.79073 1 5.99987 2.79086 5.99987 5M4.81958 21H15.1802C17.6847 21 19.5732 18.7245 19.1117 16.2628L17.6117 8.26285C17.2569 6.37095 15.605 5 13.6802 5H6.31958C4.39472 5 2.74282 6.37096 2.38809 8.26285L0.888087 16.2628C0.426527 18.7245 2.31502 21 4.81958 21Z" stroke-width="1.5" stroke-linejoin="round" />
+						</svg>
+
+						<span class="header__cart-count">6</span>
+					</a>
+
+					<div class="header__menu-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu">
+			<nav class="menu__navigation">
+				<a href="index.html" class="menu__item">Home</a>
+				<a href="shop-page.html" class="menu__item">Shop</a>
+				<a href="media.html" class="menu__item">Media</a>
+				<a href="about.html" class="menu__item">About</a>
+				<a href="contacts.html" class="menu__item">Contact</a>
+			</nav>
+
+			<div class="menu__socials">
+				<a href="#" class="menu__social">
+					<img src="img/icons/linkedin.svg" alt="">
+				</a>
+				<a href="#" class="menu__social">
+					<img src="img/icons/instagram.svg" alt="">
+				</a>
+				<a href="#" class="menu__social">
+					<img src="img/icons/facebook.svg" alt="">
+				</a>
+			</div>
+
+			<div class="menu__language">
+				<div class="menu__language-item">EN</div>
+				<div class="menu__language-item">PL</div>
+				<div class="menu__language-item">DE</div>
+			</div>
+		</div>
+
+		<main class="page">
+			<div class="banner">
+				<div class="banner__info">
+					<div class="banner__container container">
+						<div class="banner__body">
+							<div class="banner__subtitle">ESCA DAYS SPRING SITE WIDE SALE</div>
+							<div class="banner__title">SPEND 100€ GET 25€ OFF</div>
+							<div class="banner__text">Stock up for spring and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart.</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="banner__image">
+					<img src="img/banner-image.webp" alt="">
+				</div>
+			</div>
+
+			<div class="info white">
+				<div class="info__container container">
+					<div class="info__column image">
+						<img src="img/about/image01.webp" alt="">
+					</div>
+
+					<div class="info__column block">
+						<div class="info__subtitle">ENGINEERED WITH INNOVATION</div>
+						<div class="info__title">Catch Fish with us</div>
+						<div class="info__text">Stock up for spring and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart. Stock up for and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart.</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="info dark">
+				<div class="info__container container">
+					<div class="info__column image">
+						<img src="img/about/image02.webp" alt="">
+					</div>
+
+					<div class="info__column block">
+						<div class="info__subtitle">ENGINEERED WITH INNOVATION</div>
+						<div class="info__title">Catch Fish with us</div>
+						<div class="info__text">Stock up for spring and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart. Stock up for and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart.</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="info white">
+				<div class="info__container container">
+					<div class="info__column image">
+						<img src="img/about/image03.webp" alt="">
+					</div>
+
+					<div class="info__column block">
+						<div class="info__subtitle">ENGINEERED WITH INNOVATION</div>
+						<div class="info__title">Catch Fish with us</div>
+						<div class="info__text">Stock up for spring and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart. Stock up for and save big during ESCA Days' Site Wide Sale! Discount will be automatically applied in your cart.</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__top-container container">
+					<div class="footer__label">Become a dealer</div>
+					<a href="#" class="footer__link button transparent" data-popup="#dealer">
+						<span>Apply Now</span>
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.8538 5.5L23 12M23 12L17.8538 18.5M23 12L1 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="footer__content">
+				<div class="footer__content-container container">
+					<h2 class="footer__title">Lures for <span>the best catch</span></h2>
+
+					<div class="footer__body">
+						<form class="footer__form" novalidate>
+							<div class="footer__form-title">stay updated</div>
+							<div class="footer__form-subtitle">Sign up now for 10% off your first order and to receive the latest news, early access to new products, and updates from ESCA</div>
+							<div class="footer__form-line">
+								<div class="footer__form-input input">
+									<label for="updatedEmail">Enter Your email</label>
+									<input class="input-body" id="updatedEmail" type="email" name="email" required>
+									<span class="footer__error input-error"></span>
+								</div>
+								<button class="footer__form-button button" type="submit"><span>Sign Up</span></button>
+							</div>
+						</form>
+
+						<div class="footer__empty"></div>
+
+						<div class="footer__menu">
+							<div class="footer__list-title">PAGES</div>
+
+							<nav class="footer__navigation">
+								<a href="index.html" class="footer__navigation-link">Home</a>
+								<a href="contacts.html" class="footer__navigation-link">Contact</a>
+								<a href="#" class="footer__navigation-link">Store Regulations</a>
+								<a href="shop-page.html" class="footer__navigation-link">Shop</a>
+								<a href="shipping.html" class="footer__navigation-link">Shipping</a>
+								<a href="#" class="footer__navigation-link">Privacy Policy</a>
+								<a href="media.html" class="footer__navigation-link">Media</a>
+								<a href="#" class="footer__navigation-link">Payment</a>
+								<a href="#" class="footer__navigation-link">FAQ</a>
+								<a href="about.html" class="footer__navigation-link">About</a>
+							</nav>
+						</div>
+
+						<div class="footer__socials">
+							<div class="footer__list-title">Follow us</div>
+
+							<div class="footer__socials-body">
+								<a href="#" class="footer__social">
+									<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_4011_6)">
+											<circle cx="22" cy="22" r="22" />
+											<path d="M11.5273 13.9155C11.5273 15.3734 12.5876 16.4336 14.0454 16.4336C15.5032 16.4336 16.5635 15.3734 16.5635 13.9155C16.5635 12.4577 15.5032 11.3975 14.0454 11.3975C12.7201 11.3975 11.5273 12.4577 11.5273 13.9155Z" fill="white" />
+											<path d="M11.7924 18.4216V32.6023H16.2984V18.4216H11.7924Z" fill="white" />
+											<path d="M28.2261 32.6023H32.4671V23.8553C32.4671 19.4818 29.8165 18.024 27.2984 18.024C25.0454 18.024 23.4551 19.4818 23.0575 20.4095V18.4216H18.8165V32.6023H23.3225V25.0481C23.3225 23.0601 24.6478 21.9999 25.9731 21.9999C27.2984 21.9999 28.2261 22.6625 28.2261 24.9155V32.6023Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_4011_6">
+												<rect width="44" height="44" rx="22" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>LinkedIn</span>
+								</a>
+
+								<a href="#" class="footer__social">
+									<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_4011_2371)">
+											<circle cx="22" cy="22" r="22" />
+											<g clip-path="url(#clip1_4011_2371)">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M22 16.3012C18.8193 16.3012 16.3012 18.8193 16.3012 22C16.3012 25.1807 18.8193 27.6988 22 27.6988C25.1807 27.6988 27.6988 25.1807 27.6988 22C27.6988 18.8193 25.1807 16.3012 22 16.3012ZM18.2892 22C18.2892 24.1205 20.012 25.7108 22 25.7108C23.988 25.7108 25.7108 23.988 25.7108 22C25.7108 19.8795 23.988 18.2892 22 18.2892C19.8795 18.2892 18.2892 20.012 18.2892 22Z" fill="white" />
+												<path d="M29.1566 16.1687C29.1566 16.9006 28.5633 17.494 27.8313 17.494C27.0994 17.494 26.506 16.9006 26.506 16.1687C26.506 15.4367 27.0994 14.8434 27.8313 14.8434C28.5633 14.8434 29.1566 15.4367 29.1566 16.1687Z" fill="white" />
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M17.494 11H26.506C27.6988 11.1325 28.494 11.2651 29.1566 11.5301C29.9518 11.9277 30.4819 12.1928 31.1446 12.8554C31.8072 13.5181 32.2048 14.1807 32.4699 14.8434C32.7349 15.506 33 16.3012 33 17.494V26.506C32.8675 27.6988 32.7349 28.494 32.4699 29.1566C32.0723 29.9518 31.8072 30.4819 31.1446 31.1446C30.4819 31.8072 29.8193 32.2048 29.1566 32.4699C28.494 32.7349 27.6988 33 26.506 33H17.494C16.3012 32.8675 15.506 32.7349 14.8434 32.4699C14.0482 32.0723 13.5181 31.8072 12.8554 31.1446C12.1928 30.4819 11.7952 29.8193 11.5301 29.1566C11.2651 28.494 11 27.6988 11 26.506V17.494C11.1325 16.3012 11.2651 15.506 11.5301 14.8434C11.9277 14.0482 12.1928 13.5181 12.8554 12.8554C13.5181 12.1928 14.1807 11.7952 14.8434 11.5301C15.506 11.2651 16.3012 11 17.494 11ZM17.494 12.988H26.506C27.4022 12.988 27.9197 13.1773 28.2985 13.316C28.3678 13.3414 28.4325 13.365 28.494 13.3855C28.6044 13.4408 28.7096 13.4905 28.8098 13.5378C29.1901 13.7175 29.5047 13.8661 29.8193 14.1807C30.2169 14.5783 30.4819 14.9759 30.6145 15.506C30.747 15.9036 30.8795 16.4337 31.012 17.494V26.506C31.012 27.4022 30.8227 27.9197 30.684 28.2985C30.6586 28.3678 30.635 28.4325 30.6145 28.494C30.5592 28.6046 30.5096 28.7095 30.4622 28.8098C30.2825 29.1901 30.1339 29.5047 29.8193 29.8193C29.4217 30.2169 29.0241 30.4819 28.494 30.6145C28.0964 30.747 27.5663 30.8795 26.506 31.012H17.494C16.5978 31.012 16.0803 30.8227 15.7015 30.684C15.6322 30.6586 15.5675 30.635 15.506 30.6145C15.3954 30.5591 15.2905 30.5096 15.1902 30.4622C14.8099 30.2825 14.4953 30.1339 14.1807 29.8193C13.7831 29.4217 13.5181 29.0241 13.3855 28.494C13.253 28.0964 13.1205 27.5663 12.988 26.506V17.494C12.988 16.5978 13.1773 16.0803 13.316 15.7015C13.3414 15.6322 13.365 15.5675 13.3855 15.506C13.4408 15.3955 13.4904 15.2904 13.5378 15.1902C13.7175 14.8099 13.8661 14.4953 14.1807 14.1807C14.5783 13.7831 14.9759 13.5181 15.506 13.3855C15.9036 13.253 16.4337 13.1205 17.494 12.988Z" fill="white" />
+											</g>
+										</g>
+										<defs>
+											<clipPath id="clip0_4011_2371">
+												<rect width="44" height="44" rx="22" fill="white" />
+											</clipPath>
+											<clipPath id="clip1_4011_2371">
+												<rect width="22" height="22" fill="white" transform="translate(11 11)" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>Instagram</span>
+								</a>
+
+								<a href="#" class="footer__social">
+									<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_4011_3047)">
+											<circle cx="22" cy="22" r="22" />
+											<path d="M23.5851 23.1876H26.5939L27.2274 19.5453H23.7434V17.1699C23.7434 16.2198 24.2185 15.2696 25.8021 15.2696H27.3857V12.1024C27.3857 12.1024 25.9605 11.7856 24.5352 11.7856C21.6847 11.7856 19.7844 13.5276 19.7844 16.6948V19.5453H16.6172V23.1876H19.7844V32.0559H23.5851V23.1876Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_4011_3047">
+												<rect width="44" height="44" rx="22" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>Facebook</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer__bottom">Copyright © ESCA 2024</div>
+				</div>
+			</div>
+		</footer>
+		<div class="cookies">
+			<div class="cookies__title">Cookies improve your experience</div>
+			<div class="cookies__text">Welcome to ESCA®. We use cookies to enhance your experience, personalize content, and analyze our traffic. By using our website, you agree to the use of cookies as described in <a href="#">Privacy Policy</a>.</div>
+			<button class="cookies__button button" type="button"><span>Accept All</span></button>
+			<button class="cookies__button button white" type="button"><span>Reject All</span></button>
+		</div>
+
+		<div id="dealer" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+							<path d="M27.0718 12.929L12.9297 27.0711M27.0718 27.071L12.9297 12.9289" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</button>
+					<div class="dealer">
+						<div class="dealer__title">Become a dealer</div>
+
+						<div class="dealer__text">If you want to become our official dealer fill out the form. We will contact you and discuss the details of cooperation.</div>
+
+						<form class="dealer__form" novalidate>
+							<div class="dealer__form-row">
+								<div class="dealer__form-input input">
+									<label for="dealer-firstName">First Name</label>
+									<input class="input-body" id="dealer-firstName" type="text" name="firstName" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+
+								<div class="dealer__form-input input">
+									<label for="dealer-lastName">Last Name</label>
+									<input class="input-body" id="dealer-lastName" type="text" name="lastName" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+							</div>
+
+							<div class="dealer__form-row">
+								<div class="dealer__form-input input">
+									<label for="dealer-email">Email Address</label>
+									<input class="input-body" id="dealer-email" type="email" name="email" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+
+								<div class="dealer__form-input input">
+									<label for="dealer-phone">Phone Number</label>
+									<input class="input-body" id="dealer-phone" type="tel" name="phone" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+							</div>
+
+							<div class="dealer__form-row">
+								<div class="dealer__form-input input">
+									<label for="dealer-name">Company Name</label>
+									<input class="input-body" id="dealer-name" type="text" name="companyName" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+
+								<div class="dealer__form-input input">
+									<label for="dealer-address">Company Address</label>
+									<input class="input-body" id="dealer-address" type="text" name="companyAddress" required>
+									<span class="dealer__form-error input-error"></span>
+								</div>
+							</div>
+
+							<div class="dealer__form-input input">
+								<label for="dealer-website">Website Address</label>
+								<input class="input-body" id="dealer-website" type="url" name="website" required>
+								<span class="dealer__form-error input-error"></span>
+							</div>
+
+							<div class="dealer__form-input input">
+								<label for="message">Your Message</label>
+								<textarea class="input-body" id="message" name="message" required></textarea>
+								<span class="dealer__form-error input-error"></span>
+							</div>
+
+							<button class="dealer__form-button button" type="submit"><span>Submit Application</span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="cart" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+							<path d="M27.0718 12.929L12.9297 27.0711M27.0718 27.071L12.9297 12.9289" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</button>
+					<div class="cart-popup">
+						<div class="cart-popup__title">cart (<span class="cart-popup__count">2</span>)</div>
+
+						<div class="cart-popup__body">
+							<div class="cart__item">
+								<div class="cart__item-image">
+									<div class="cart__item-count"></div>
+									<img src="img/product/image01.webp" alt="">
+								</div>
+
+								<div class="cart__item-info">
+									<div class="cart__item-name">Curly Twister FW</div>
+									<ul class="cart__item-list">
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Bait Length:</span>
+											<span class="cart__item-elem-size">3.5 inch</span>
+										</li>
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Package contents:</span>
+											<span class="cart__item-elem-size">6 pcs</span>
+										</li>
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Color:</span>
+											<span class="cart__item-elem-size">135</span>
+										</li>
+									</ul>
+								</div>
+
+								<div class="cart__item-cost">3.99€</div>
+
+								<div data-quantity class="quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value type="text" name="quantity" value="3" disabled>
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+
+								<div class="cart__item-total-cost">11.97€</div>
+
+								<div class="cart__item-delete">
+									<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.3333 12L24.3788 24.409C24.165 27.1877 21.848 29.3333 19.0612 29.3333H12.9388C10.152 29.3333 7.83495 27.1877 7.62121 24.409L6.66667 12M28 9.33329C24.5361 7.64526 20.4182 6.66663 16 6.66663C11.5818 6.66663 7.46389 7.64526 4 9.33329M13.3333 6.66663V5.33329C13.3333 3.86053 14.5272 2.66663 16 2.66663C17.4728 2.66663 18.6667 3.86053 18.6667 5.33329V6.66663M13.3333 14.6666V22.6666M18.6667 14.6666V22.6666" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="cart__item">
+								<div class="cart__item-image">
+									<div class="cart__item-count"></div>
+									<img src="img/product/image02.webp" alt="">
+								</div>
+
+								<div class="cart__item-info">
+									<div class="cart__item-name">TNT FW</div>
+									<ul class="cart__item-list">
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Bait Length:</span>
+											<span class="cart__item-elem-size">3 inch</span>
+										</li>
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Package contents:</span>
+											<span class="cart__item-elem-size">8 pcs</span>
+										</li>
+										<li class="cart__item-elem">
+											<span class="cart__item-elem-name">Color:</span>
+											<span class="cart__item-elem-size">009</span>
+										</li>
+									</ul>
+								</div>
+
+								<div class="cart__item-cost">3.99€</div>
+
+								<div data-quantity class="quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value type="text" name="quantity" value="1" disabled>
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+
+								<div class="cart__item-total-cost">3.99€</div>
+
+								<div class="cart__item-delete">
+									<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.3333 12L24.3788 24.409C24.165 27.1877 21.848 29.3333 19.0612 29.3333H12.9388C10.152 29.3333 7.83495 27.1877 7.62121 24.409L6.66667 12M28 9.33329C24.5361 7.64526 20.4182 6.66663 16 6.66663C11.5818 6.66663 7.46389 7.64526 4 9.33329M13.3333 6.66663V5.33329C13.3333 3.86053 14.5272 2.66663 16 2.66663C17.4728 2.66663 18.6667 3.86053 18.6667 5.33329V6.66663M13.3333 14.6666V22.6666M18.6667 14.6666V22.6666" stroke-width="2" stroke-linecap="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="cart-popup__bottom">
+							<div class="cart-popup__subtotal">
+								<span>Subtotal</span>
+								<span>30.94€</span>
+							</div>
+
+							<a href="checkout.html" class="cart-popup__button button"><span>Checkout</span></a>
+							<a href="cart.html" class="cart-popup__button button white"><span>View Full Cart</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="confirm" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+							<path d="M27.0718 12.929L12.9297 27.0711M27.0718 27.071L12.9297 12.9289" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</button>
+					<div class="confirm">
+						<div class="confirm__title">Your order number #<span class="confirm__number">0000005</span></div>
+
+						<div class="confirm__text">Thank you for your Purchase. Your order has been successfully placed. We are processing your order and you will receive an email shortly with all the details.</div>
+
+						<a href="shop-page.html" class="confirm__button button"><span>Continue Shopping</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/app.min.js?_v=20240710152146"></script>
+</body>
+
+</html>
