@@ -1570,6 +1570,9 @@ body::after {
   list-style: none;
   cursor: pointer
 }
+.product__info-title::-webkit-details-marker {
+  display: none
+}
 .product__info-title._spoller-active svg {
   -webkit-transform: rotateX(180deg);
   transform: rotateX(180deg)
@@ -2038,6 +2041,9 @@ body::after {
   list-style: none;
   cursor: pointer
 }
+.cart__coupon-title::-webkit-details-marker {
+  display: none
+}
 .cart__coupon-title-text {
   display: flex;
   align-items: center;
@@ -2167,6 +2173,9 @@ body::after {
   align-items: center;
   justify-content: space-between;
   list-style: none
+}
+.checkout__cart-title::-webkit-details-marker {
+  display: none
 }
 .checkout__cart-title-text {
   display: flex;
