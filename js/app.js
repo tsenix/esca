@@ -10577,7 +10577,7 @@ PERFORMANCE OF THIS SOFTWARE.
             };
             if (input.value && type === "email" && !emailPattern.test(input.value)) return {
                 isError: true,
-                textError: "Invalid email format. For example, address@com.ua"
+                textError: "Invalid email format"
             };
             if (input.value && type === "tel" && !phonePattern.test(cleanString(input.value))) return {
                 isError: true,
@@ -10585,7 +10585,7 @@ PERFORMANCE OF THIS SOFTWARE.
             };
             if (input.value && type === "url" && !urlPattern.test(input.value)) return {
                 isError: true,
-                textError: "Invalid URL format. For example, https://example.com"
+                textError: "Invalid URL format"
             };
             return {
                 isError: false,
@@ -10676,6 +10676,16 @@ PERFORMANCE OF THIS SOFTWARE.
             }));
             checkFormValidity();
         }
+        function initCookiesBody() {
+            const cookiesBody = document.querySelector(".cookies");
+            const buttons = cookiesBody.querySelectorAll(".button");
+            setTimeout((() => {
+                cookiesBody.classList.add("active");
+            }), 2e3);
+            for (const button of buttons) button.addEventListener("click", (() => {
+                cookiesBody.classList.remove("active");
+            }));
+        }
         window.addEventListener("load", (() => {
             if (footerForm) submitForm(footerForm);
             if (contactForm) {
@@ -10694,6 +10704,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 }));
             }
             if (dealerForm) submitForm(dealerForm);
+            initCookiesBody();
         }));
         window["FLS"] = false;
         menuInit();
