@@ -740,7 +740,9 @@ input[type=number] {
 }
 .quantity__input input:disabled {
   color: #1e1f1c;
-  -webkit-text-fill-color: #1e1f1c
+  -webkit-text-fill-color: #1e1f1c;
+  opacity: 1;
+  -webkit-opacity: 1
 }
 body::after {
   content: "";
