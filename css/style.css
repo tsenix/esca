@@ -739,7 +739,8 @@ input[type=number] {
   text-align: center
 }
 .quantity__input input:disabled {
-  color: #1e1f1c
+  color: #1e1f1c;
+  -webkit-text-fill-color: #1e1f1c
 }
 body::after {
   content: "";
